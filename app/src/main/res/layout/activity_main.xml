@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="288dp"
+        android:layout_height="211dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="164dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="4">
+
+            <!-- RadioButton 1 -->
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Oso" />
+
+            <!-- RadioButton 2 -->
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Flor" />
+
+            <!-- RadioButton 3 -->
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Niña" />
+
+            <!-- RadioButton 4 -->
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Pez" />
+
+            <!-- RadioButton 5 -->
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Perro" />
+
+            <!-- RadioButton 6 -->
+            <RadioButton
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Agua" />
+
+            <!-- RadioButton 7 -->
+            <RadioButton
+                android:id="@+id/radio7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Azul" />
+
+            <!-- RadioButton 8 -->
+            <RadioButton
+                android:id="@+id/radio8"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Sol" />
+
+            <!-- RadioButton 9 -->
+            <RadioButton
+                android:id="@+id/radio9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Gato" />
+
+            <!-- RadioButton 10 -->
+            <RadioButton
+                android:id="@+id/radio10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Pc" />
+
+            <!-- RadioButton 11 -->
+            <RadioButton
+                android:id="@+id/radio11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Rojo" />
+
+            <!-- RadioButton 12 -->
+            <RadioButton
+                android:id="@+id/radio12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Nube" />
+
+            <!-- RadioButton 13 -->
+            <RadioButton
+                android:id="@+id/radio13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Caballo" />
+
+            <!-- RadioButton 14 -->
+            <RadioButton
+                android:id="@+id/radio14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Niño" />
+
+            <!-- RadioButton 15 -->
+            <RadioButton
+                android:id="@+id/radio15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Verde" />
+
+            <!-- RadioButton 16 -->
+            <RadioButton
+                android:id="@+id/radio16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radio1"
+                android:text="Gota" />
+
+        </GridLayout>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciemos¡!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radiogroup2"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto"
+        app:srcCompat="@drawable/empty" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
